@@ -1,0 +1,192 @@
+"Country"	"Continent"	"ISO"	"Population"	"Life_exp"	"Code"	"GDP"
+"Afghanistan"	"Asia"	"AF"	31056997	53.8	"AFG"	1808.126028
+"Albania"	"Europe"	"AL"	3581655	78	"ALB"	11015.16388
+"Algeria"	"Africa"	"DZ"	32930091	76.4	"DZA"	13795.24329
+"American Samoa"	"Oceania"	"AS"	57794	72.9	"ASM"	NA
+"Andorra"	"Europe"	"AD"	71201	84.8	"AND"	NA
+"Angola"	"Africa"	"AO"	12127071	59.6	"AGO"	6937.631046
+"Antigua and Barbuda"	"Americas"	"AG"	69108	76.4	"ATG"	21660.22167
+"Argentina"	"Americas"	"AR"	39921833	76.5	"ARG"	19101.74174
+"Armenia"	"Asia"	"AM"	2976372	74.7	"ARM"	7906.916569
+"Aruba"	"Americas"	"AW"	71891	75.72	"ABW"	NA
+"Australia"	"Oceania"	"AU"	20264082	82.3	"AUS"	43631.23586
+"Austria"	"Europe"	"AT"	8192880	81.3	"AUT"	44048.43145
+"Azerbaijan"	"Asia"	"AZ"	7961619	72.9	"AZE"	16698.86368
+"Bahamas"	"Americas"	"BS"	303770	73.7	"BHS"	21602.67549
+"Bahrain"	"Asia"	"BH"	698585	79.1	"BHR"	43753.89818
+"Bangladesh"	"Asia"	"BD"	147365352	70.4	"BGD"	3136.561069
+"Barbados"	"Americas"	"BB"	279912	75.7	"BRB"	15408.38466
+"Belarus"	"Europe"	"BY"	10293011	71	"BLR"	16661.99044
+"Belgium"	"Europe"	"BE"	10379067	80.5	"BEL"	41825.81104
+"Belize"	"Americas"	"BZ"	287730	71.7	"BLZ"	7967.766835
+"Benin"	"Africa"	"BJ"	7862944	62.3	"BEN"	1931.664951
+"Bermuda"	"Americas"	"BM"	65773	78.5	"BMU"	NA
+"Bhutan"	"Asia"	"BT"	2279723	72.7	"BTN"	7860.987122
+"Bolivia"	"Americas"	"BO"	8989046	73.2	"BOL"	6531.073588
+"Bosnia and Herzegovina"	"Europe"	"BA"	4498976	78.9	"BIH"	10118.77042
+"Botswana"	"Africa"	"BW"	1639833	58.7	"BWA"	14876.36204
+"Brazil"	"Americas"	"BR"	188078227	74.4	"BRA"	14532.98024
+"British Virgin Islands"	"Americas"	"VG"	23098	NA	"VGB"	NA
+"Brunei"	"Asia"	"BN"	379444	77.1	"BRN"	73604.87963
+"Bulgaria"	"Europe"	"BG"	7385367	74.8	"BGR"	17000.14214
+"Burkina Faso"	"Africa"	"BF"	13902972	60.9	"BFA"	1592.9168
+"Burundi"	"Africa"	"BI"	8090068	61.4	"BDI"	682.944118
+"Cambodia"	"Asia"	"KH"	13881427	69.4	"KHM"	3278.221215
+"Cameroon"	"Africa"	"CM"	17340702	59.4	"CMR"	2925.887417
+"Canada"	"Americas"	"CA"	33098932	81.7	"CAN"	42983.10006
+"Cape Verde"	"Africa"	"CV"	420979	72.9	"CPV"	6157.89677
+"Cayman Islands"	"Americas"	"KY"	45436	NA	"CYM"	NA
+"Central African Republic"	"Africa"	"CF"	4303356	49.6	"CAF"	581.1361707
+"Chad"	"Africa"	"TD"	9944201	57.4	"TCD"	2043.544231
+"Chile"	"Americas"	"CL"	16134219	79.4	"CHL"	22197.04271
+"China"	"Asia"	"CN"	1313973713	76.2	"CHN"	13572.19409
+"Colombia"	"Americas"	"CO"	43593035	78	"COL"	12988.33879
+"Comoros"	"Africa"	"KM"	690948	68.1	"COM"	1393.256081
+"Congo, Dem. Rep."	"Africa"	"CD"	62660551	60.8	"COD"	736.6802449
+"Costa Rica"	"Americas"	"CR"	4075261	80.3	"CRI"	14646.56982
+"Cote d'Ivoire"	"Africa"	"CI"	17654843	59.1	"CIV"	3300.072489
+"Croatia"	"Europe"	"HR"	4494749	77.8	"HRV"	20663.92949
+"Cuba"	"Americas"	"CU"	11382820	78.2	"CUB"	21016.65041
+"Cyprus"	"Europe"	"CY"	784301	81.8	"CYP"	30382.687
+"Cyprus"	"Asia"	"CY"	784301	81.8	"CYP"	30382.687
+"Czech Republic"	"Europe"	"CZ"	10235455	78.8	"CZE"	30380.59073
+"Denmark"	"Europe"	"DK"	5450661	80.4	"DNK"	45483.76451
+"Djibouti"	"Africa"	"DJ"	486530	63.8	"DJI"	3279.123902
+"Dominica"	"Americas"	"DM"	68910	73.1	"DMA"	10204.03569
+"Dominican Republic"	"Americas"	"DO"	9183984	75.3	"DOM"	13371.5288
+"Ecuador"	"Americas"	"EC"	13547510	75.9	"ECU"	10776.57766
+"Egypt"	"Africa"	"EG"	78887007	71.5	"EGY"	10249.95791
+"El Salvador"	"Americas"	"SV"	6822378	74.9	"SLV"	8095.558984
+"Equatorial Guinea"	"Africa"	"GQ"	540109	61	"GNQ"	38243.35424
+"Eritrea"	"Africa"	"ER"	4786994	60.7	"ERI"	NA
+"Estonia"	"Europe"	"EE"	1324333	77.8	"EST"	27345.24687
+"Ethiopia"	"Africa"	"ET"	74777981	65.2	"ETH"	1529.893783
+"Fiji"	"Oceania"	"FJ"	905949	65.8	"FJI"	8756.400469
+"Finland"	"Europe"	"FI"	5231372	80.9	"FIN"	38993.67067
+"France"	"Europe"	"FR"	60876136	81.8	"FRA"	37774.99918
+"French Polynesia"	"Oceania"	"PF"	274578	76.69	"PYF"	NA
+"Gabon"	"Africa"	"GA"	1424906	65.9	"GAB"	18860.21415
+"Gambia"	"Africa"	"GM"	1641564	68.1	"GMB"	1577.569039
+"Georgia"	"Asia"	"GE"	4661473	72.9	"GEO"	9015.887767
+"Germany"	"Europe"	"DE"	82422299	80.8	"DEU"	43787.81573
+"Ghana"	"Africa"	"GH"	22409572	65.3	"GHA"	3954.523716
+"Gibraltar"	"Europe"	"GI"	27928	NA	"GIB"	NA
+"Greece"	"Europe"	"GR"	10688058	81	"GRC"	24094.79419
+"Greenland"	"Americas"	"GL"	56361	72.1	"GRL"	NA
+"Grenada"	"Americas"	"GD"	89703	71.5	"GRD"	12734.26205
+"Guam"	"Oceania"	"GU"	171019	71.7	"GUM"	NA
+"Guatemala"	"Americas"	"GT"	12293545	72.6	"GTM"	7252.949966
+"Guinea"	"Africa"	"GN"	9690222	59.1	"GIN"	1135.48655
+"Guinea-Bissau"	"Africa"	"GW"	1442029	55.6	"GNB"	1367.298975
+"Guyana"	"Americas"	"GY"	767245	66.8	"GUY"	7064.450025
+"Haiti"	"Americas"	"HT"	8308504	64.3	"HTI"	1650.59349
+"Honduras"	"Americas"	"HN"	7326496	73	"HND"	4785.444354
+"Hong Kong, China"	"Asia"	"HK"	6940432	83.73	"HKG"	53462.863
+"Hungary"	"Europe"	"HU"	9981334	76.7	"HUN"	24831.34606
+"Iceland"	"Europe"	"IS"	299388	83.3	"ISL"	42704.42172
+"India"	"Asia"	"IN"	1095351995	67.2	"IND"	5733.4524
+"Indonesia"	"Asia"	"ID"	245452739	71.1	"IDN"	10385.32332
+"Iran"	"Asia"	"IR"	68688433	74.6	"IRN"	NA
+"Iraq"	"Asia"	"IQ"	26783383	67.4	"IRQ"	14458.85354
+"Ireland"	"Europe"	"IE"	4062235	81.7	"IRL"	61378.36025
+"Isle of Man"	"Europe"	"IM"	75441	NA	"IMN"	NA
+"Israel"	"Asia"	"IL"	6352117	82.1	"ISR"	31970.68889
+"Italy"	"Europe"	"IT"	58133509	82.2	"ITA"	34219.76149
+"Jamaica"	"Americas"	"JM"	2758124	75	"JAM"	8333.484528
+"Japan"	"Asia"	"JP"	127463611	83.2	"JPN"	37872.46177
+"Jordan"	"Asia"	"JO"	5906760	78.5	"JOR"	10239.6643
+"Kazakhstan"	"Asia"	"KZ"	15233244	70.2	"KAZ"	23522.29052
+"Kenya"	"Africa"	"KE"	34707817	65.1	"KEN"	2901.012941
+"Kiribati"	"Oceania"	"KI"	105432	63	"KIR"	1873.496969
+"Kuwait"	"Asia"	"KW"	2418393	80.3	"KWT"	70107.45766
+"Latvia"	"Europe"	"LV"	2274735	75.4	"LVA"	23080.36069
+"Lebanon"	"Asia"	"LB"	3874050	78.9	"LBN"	13089.0123
+"Lesotho"	"Africa"	"LS"	2022331	47.1	"LSO"	2770.19959
+"Liberia"	"Africa"	"LR"	3042004	63.2	"LBR"	784.5813313
+"Libya"	"Africa"	"LY"	5900754	74.1	"LBY"	NA
+"Liechtenstein"	"Europe"	"LI"	33987	NA	"LIE"	NA
+"Lithuania"	"Europe"	"LT"	3585906	75.2	"LTU"	26970.88241
+"Luxembourg"	"Europe"	"LU"	474413	82.2	"LUX"	93899.6565
+"Madagascar"	"Africa"	"MG"	18595469	63.5	"MDG"	1376.260108
+"Malawi"	"Africa"	"MW"	13013926	60.5	"MWI"	1111.648704
+"Malaysia"	"Asia"	"MY"	24385858	75.3	"MYS"	25311.90676
+"Maldives"	"Asia"	"MV"	359008	80	"MDV"	11993.91077
+"Mali"	"Africa"	"ML"	11716829	60.2	"MLI"	1904.856967
+"Malta"	"Europe"	"MT"	400214	82.1	"MLT"	32719.94634
+"Marshall Islands"	"Oceania"	"MH"	60422	66.9	"MHL"	3673.153775
+"Mauritania"	"Africa"	"MR"	3177388	69.7	"MRT"	NA
+"Mauritius"	"Africa"	"MU"	1240827	74.5	"MUS"	18864.10567
+"Mexico"	"Americas"	"MX"	107449525	75.9	"MEX"	16490.3458
+"Moldova"	"Europe"	"MD"	4466706	73.9	"MDA"	4742.019069
+"Monaco"	"Europe"	"MC"	32543	NA	"MCO"	NA
+"Mongolia"	"Asia"	"MN"	2832224	67.1	"MNG"	11477.82668
+"Morocco"	"Africa"	"MA"	33241259	74.6	"MAR"	7364.766283
+"Mozambique"	"Africa"	"MZ"	19686505	57.1	"MOZ"	1119.697785
+"Namibia"	"Africa"	NA	2044147	64.2	"NAM"	9778.405179
+"Nauru"	"Oceania"	"NR"	13287	NA	"NRU"	12270.29448
+"Nepal"	"Asia"	"NP"	28287147	69.7	"NPL"	2312.394345
+"Netherlands"	"Europe"	"NL"	16491461	81.3	"NLD"	46353.85191
+"New Caledonia"	"Oceania"	"NC"	219246	76.74	"NCL"	NA
+"New Zealand"	"Oceania"	"NZ"	4076140	81.4	"NZL"	35158.64147
+"Nicaragua"	"Americas"	"NI"	5570129	78	"NIC"	4884.150761
+"Niger"	"Africa"	"NE"	12525094	61	"NER"	897.3953205
+"Nigeria"	"Africa"	"NG"	131859731	64.6	"NGA"	5638.887379
+"Northern Mariana Islands"	"Oceania"	"MP"	82459	76.2	"MNP"	NA
+"Norway"	"Europe"	"NO"	4610820	82	"NOR"	63649.50532
+"Oman"	"Asia"	"OM"	3102229	77.2	"OMN"	37541.07548
+"Pakistan"	"Asia"	"PK"	165803560	65.9	"PAK"	4706.184733
+"Palau"	"Oceania"	"PW"	20579	NA	"PLW"	14385.96881
+"Panama"	"Americas"	"PA"	3191319	78.2	"PAN"	20885.33945
+"Papua New Guinea"	"Oceania"	"PG"	5670544	60.9	"PNG"	NA
+"Paraguay"	"Americas"	"PY"	6506464	74.4	"PRY"	8639.281645
+"Peru"	"Americas"	"PE"	28302603	79.5	"PER"	11767.52212
+"Philippines"	"Asia"	"PH"	89468677	71	"PHL"	6938.210302
+"Poland"	"Europe"	"PL"	38536869	77.6	"POL"	25322.53843
+"Portugal"	"Europe"	"PT"	10605870	80.8	"PRT"	26548.61924
+"Puerto Rico"	"Americas"	"PR"	3927188	78.5	"PRI"	NA
+"Qatar"	"Asia"	"QA"	885359	79.7	"QAT"	132937.6663
+"Romania"	"Europe"	"RO"	22303552	75.2	"ROU"	20483.77531
+"Russia"	"Europe"	"RU"	142893540	71	"RUS"	24124.33236
+"Rwanda"	"Africa"	"RW"	8648248	65.9	"RWA"	1655.175355
+"Samoa"	"Oceania"	"WS"	176908	73.2	"WSM"	5574.067711
+"San Marino"	"Europe"	"SM"	29251	NA	"SMR"	NA
+"Saudi Arabia"	"Asia"	"SA"	27019731	79.5	"SAU"	50283.93359
+"Senegal"	"Africa"	"SN"	11987121	65.3	"SEN"	2273.624187
+"Serbia"	"Europe"	"RS"	9396411	76.2	"SRB"	13277.75173
+"Seychelles"	"Africa"	"SC"	81541	74.1	"SYC"	25524.955
+"Sierra Leone"	"Africa"	"SL"	6005250	57.1	"SLE"	1473.913005
+"Singapore"	"Asia"	"SG"	4492150	82	"SGP"	80191.53931
+"Slovenia"	"Europe"	"SI"	2010347	80.9	"SVN"	29097.34277
+"Solomon Islands"	"Oceania"	"SB"	552438	64	"SLB"	2067.129782
+"Somalia"	"Africa"	"SO"	8863338	54.2	"SOM"	NA
+"South Africa"	"Africa"	"ZA"	44187637	61.3	"ZAF"	12393.25546
+"Spain"	"Europe"	"ES"	40397842	82.6	"ESP"	32218.54182
+"Sri Lanka"	"Asia"	"LK"	20222240	77.6	"LKA"	11047.66697
+"Sudan"	"Africa"	"SD"	41236378	67.5	"SDN"	4121.137015
+"Suriname"	"Americas"	"SR"	439117	72	"SUR"	15687.23164
+"Swaziland"	"Africa"	"SZ"	1136334	51.8	"SWZ"	8122.04947
+"Sweden"	"Europe"	"SE"	9016596	82.1	"SWE"	45488.29166
+"Switzerland"	"Europe"	"CH"	7523934	83	"CHE"	56517.45244
+"Syria"	"Asia"	"SY"	18881361	68.2	"SYR"	NA
+"Tajikistan"	"Asia"	"TJ"	7320815	72.4	"TJK"	2661.384595
+"Tanzania"	"Africa"	"TZ"	37445392	64.1	"TZA"	2510.03566
+"Thailand"	"Asia"	"TH"	64631595	74.7	"THA"	15346.64689
+"Togo"	"Africa"	"TG"	5548702	61.5	"TGO"	1371.564167
+"Tonga"	"Oceania"	"TO"	114689	71.5	"TON"	5198.345314
+"Trinidad and Tobago"	"Americas"	"TT"	1065842	72.4	"TTO"	31283.55002
+"Tunisia"	"Africa"	"TN"	10175014	77.6	"TUN"	10769.93325
+"Turkey"	"Asia"	"TR"	70413958	79.2	"TUR"	19460.48213
+"Turkmenistan"	"Asia"	"TM"	5042920	70	"TKM"	15527.40393
+"Tuvalu"	"Oceania"	"TV"	11810	NA	"TUV"	3687.484226
+"Uganda"	"Africa"	"UG"	28195754	61.3	"UGA"	1738.4625
+"Ukraine"	"Europe"	"UA"	46710816	71.5	"UKR"	7456.930217
+"United Arab Emirates"	"Asia"	"AE"	2602713	75.4	"ARE"	65716.98396
+"United Kingdom"	"Europe"	"GB"	60609153	81	"GBR"	38509.21416
+"United States"	"Americas"	"US"	298444215	79.1	"USA"	52704.19888
+"Uruguay"	"Americas"	"UY"	3431932	76.8	"URY"	19952.25325
+"Uzbekistan"	"Asia"	"UZ"	27307134	71.8	"UZB"	5716.495922
+"Vanuatu"	"Oceania"	"VU"	208869	64.9	"VUT"	2806.270013
+"Venezuela"	"Americas"	"VE"	25730435	74.8	"VEN"	NA
+"Vietnam"	"Asia"	"VN"	84402966	75.4	"VNM"	5667.410939
+"Zambia"	"Africa"	"ZM"	11502010	56.7	"ZMB"	3602.326756
+"Zimbabwe"	"Africa"	"ZW"	12236805	59.3	"ZWE"	1677.969628

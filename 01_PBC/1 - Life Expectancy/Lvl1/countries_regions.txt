@@ -1,0 +1,252 @@
+Continent	ISO	Country
+Asia	AF	Afghanistan
+Europe	AL	Albania
+Africa	DZ	Algeria
+Oceania	AS	American Samoa
+Europe	AD	Andorra
+Africa	AO	Angola
+Americas	AI	Anguilla
+Oceania	AQ	Antarctica
+Americas	AG	Antigua and Barbuda
+Americas	AR	Argentina
+Asia	AM	Armenia
+Americas	AW	Aruba
+Oceania	AU	Australia
+Europe	AT	Austria
+Asia	AZ	Azerbaijan
+Americas	BS	Bahamas
+Asia	BH	Bahrain
+Asia	BD	Bangladesh
+Americas	BB	Barbados
+Europe	BY	Belarus
+Europe	BE	Belgium
+Americas	BZ	Belize
+Africa	BJ	Benin
+Americas	BM	Bermuda
+Asia	BT	Bhutan
+Americas	BO	Bolivia
+Europe	BA	Bosnia and Herzegovina
+Africa	BW	Botswana
+Oceania	BV	Bouvet Island
+Americas	BR	Brazil
+Oceania	IO	British Indian Ocean Territory
+Americas	VG	British Virgin Islands
+Asia	BN	Brunei
+Europe	BG	Bulgaria
+Africa	BF	Burkina Faso
+Asia	MM	Burma
+Africa	BI	Burundi
+Asia	KH	Cambodia
+Africa	CM	Cameroon
+Americas	CA	Canada
+Africa	CV	Cape Verde
+Americas	KY	Cayman Islands
+Africa	CF	Central African Republic
+Africa	TD	Chad
+Americas	CL	Chile
+Asia	CN	China
+Oceania	CX	Christmas Island
+Oceania	CC	Cocos [Keeling] Islands
+Americas	CO	Colombia
+Africa	KM	Comoros
+Africa	CD	Congo, Dem. Rep.
+Africa	CG	Congo, Repub. Of the
+Oceania	CK	Cook Islands
+Americas	CR	Costa Rica
+Africa	CI	Cote d'Ivoire
+Europe	HR	Croatia
+Americas	CU	Cuba
+Asia	CY	Cyprus
+Europe	CY	Cyprus
+Europe	CZ	Czech Republic
+Europe	DK	Denmark
+Africa	DJ	Djibouti
+Americas	DM	Dominica
+Americas	DO	Dominican Republic
+Europe	DD	East Germany
+Americas	EC	Ecuador
+Africa	EG	Egypt
+Americas	SV	El Salvador
+Africa	GQ	Equatorial Guinea
+Africa	ER	Eritrea
+Europe	EE	Estonia
+Africa	ET	Ethiopia
+Americas	FK	Falkland Islands
+Europe	FO	Faroe Islands
+Oceania	FJ	Fiji
+Europe	FI	Finland
+Europe	FR	France
+Americas	GF	French Guiana
+Oceania	PF	French Polynesia
+Oceania	TF	French Southern Territories
+Africa	GA	Gabon
+Africa	GM	Gambia
+Asia	GE	Georgia
+Europe	DE	Germany
+Africa	GH	Ghana
+Europe	GI	Gibraltar
+Europe	GR	Greece
+Americas	GL	Greenland
+Americas	GD	Grenada
+Americas	GP	Guadeloupe
+Oceania	GU	Guam
+Americas	GT	Guatemala
+Europe	GG	Guernsey
+Africa	GN	Guinea
+Africa	GW	Guinea-Bissau
+Americas	GY	Guyana
+Americas	HT	Haiti
+Oceania	HM	Heard Island and McDonald Islands
+Americas	HN	Honduras
+Asia	HK	Hong Kong, China
+Europe	HU	Hungary
+Europe	IS	Iceland
+Asia	IN	India
+Asia	ID	Indonesia
+Asia	IR	Iran
+Asia	IQ	Iraq
+Europe	IE	Ireland
+Europe	IM	Isle of Man
+Asia	IL	Israel
+Europe	IT	Italy
+Americas	JM	Jamaica
+Asia	JP	Japan
+Europe	JE	Jersey
+Asia	JO	Jordan
+Asia	KZ	Kazakhstan
+Africa	KE	Kenya
+Oceania	KI	Kiribati
+Asia	KP	Korea, North
+Asia	KR	Korea, South
+Asia	KW	Kuwait
+Asia	KG	Kyrgyzstan
+Asia	LA	Laos
+Europe	LV	Latvia
+Asia	LB	Lebanon
+Africa	LS	Lesotho
+Africa	LR	Liberia
+Africa	LY	Libya
+Europe	LI	Liechtenstein
+Europe	LT	Lithuania
+Europe	LU	Luxembourg
+Asia	MO	Macau, China
+Europe	MK	Macedonia
+Africa	MG	Madagascar
+Africa	MW	Malawi
+Asia	MY	Malaysia
+Asia	MV	Maldives
+Africa	ML	Mali
+Europe	MT	Malta
+Oceania	MH	Marshall Islands
+Americas	MQ	Martinique
+Africa	MR	Mauritania
+Africa	MU	Mauritius
+Africa	YT	Mayotte
+Americas	MX	Mexico
+Oceania	FM	Micronesia
+Europe	MD	Moldova
+Europe	MC	Monaco
+Asia	MN	Mongolia
+Europe	ME	Montenegro
+Americas	MS	Montserrat
+Africa	MA	Morocco
+Africa	MZ	Mozambique
+Africa	NA	Namibia
+Oceania	NR	Nauru
+Asia	NP	Nepal
+Europe	NL	Netherlands
+Americas	AN	Netherlands Antilles
+Asia	NT	Neutral Zone
+Oceania	NC	New Caledonia
+Oceania	NZ	New Zealand
+Americas	NI	Nicaragua
+Africa	NE	Niger
+Africa	NG	Nigeria
+Oceania	NU	Niue
+Oceania	NF	Norfolk Islands
+Oceania	MP	Northern Mariana Islands
+Europe	NO	Norway
+Asia	OM	Oman
+Asia	PK	Pakistan
+Oceania	PW	Palau
+Asia	PS	Palestinian Territories
+Americas	PA	Panama
+Oceania	PG	Papua New Guinea
+Americas	PY	Paraguay
+Asia	YD	People's Democratic Republic of Yemen
+Americas	PE	Peru
+Asia	PH	Philippines
+Oceania	PN	Pitcairn Islands
+Europe	PL	Poland
+Europe	PT	Portugal
+Americas	PR	Puerto Rico
+Asia	QA	Qatar
+Africa	RE	Reunion
+Europe	RO	Romania
+Europe	RU	Russia
+Africa	RW	Rwanda
+Americas	BL	Saint Barthelemy
+Africa	SH	Saint Helena
+Americas	KN	Saint Kitts and Nevis
+Americas	LC	Saint Lucia
+Americas	MF	Saint Martin
+Americas	PM	Saint Pierre and Miquelon
+Americas	VC	Saint Vincent and the Grenadines
+Oceania	WS	Samoa
+Europe	SM	San Marino
+Africa	ST	Sao tome and Principe
+Asia	SA	Saudi Arabia
+Africa	SN	Senegal
+Europe	RS	Serbia
+Africa	SC	Seychelles
+Europe	AX	shetland ilands
+Africa	SL	Sierra Leone
+Asia	SG	Singapore
+Europe	SK	Slovakia
+Europe	SI	Slovenia
+Oceania	SB	Solomon Islands
+Africa	SO	Somalia
+Africa	ZA	South Africa
+Oceania	GS	South Georgia and the South Sandwich Islands
+Europe	ES	Spain
+Asia	LK	Sri Lanka
+Africa	SD	Sudan
+Americas	SR	Suriname
+Europe	SJ	Svalbard and Jan Mayen
+Africa	SZ	Swaziland
+Europe	SE	Sweden
+Europe	CH	Switzerland
+Asia	SY	Syria
+Asia	TW	Taiwan
+Asia	TJ	Tajikistan
+Africa	TZ	Tanzania
+Asia	TH	Thailand
+Asia	TL	Timor-Leste
+Africa	TG	Togo
+Oceania	TK	Tokelau
+Oceania	TO	Tonga
+Americas	TT	Trinidad and Tobago
+Africa	TN	Tunisia
+Asia	TR	Turkey
+Asia	TM	Turkmenistan
+Americas	TC	Turks and Caicos Islands
+Oceania	TV	Tuvalu
+Oceania	UM	U.S. Minor Outlying Islands
+Americas	VI	U.S. Virgin Islands
+Africa	UG	Uganda
+Europe	UA	Ukraine
+Europe	SU	Union of Soviet Socialist Republics
+Asia	AE	United Arab Emirates
+Europe	GB	United Kingdom
+Americas	US	United States
+Americas	UY	Uruguay
+Asia	UZ	Uzbekistan
+Oceania	VU	Vanuatu
+Europe	VA	Vatican City
+Americas	VE	Venezuela
+Asia	VN	Vietnam
+Oceania	WF	Wallis and Futuna
+Africa	EH	Western Sahara
+Asia	YE	Yemen
+Africa	ZM	Zambia
+Africa	ZW	Zimbabwe

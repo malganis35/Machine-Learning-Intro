@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)https://archive.ics.uci.edu/ml/index.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>UCI Machine Learning Repository</title>
+
+<!-- Stylesheet link -->
+<link rel="stylesheet" type="text/css" href="./UCI Machine Learning Repository_files/ml.css">
+
+<script language="JavaScript" type="text/javascript">
+<!--
+function checkform ( form )
+{
+  // see http://www.thesitewizard.com/archive/validation.shtml
+  // for an explanation of this script and how to use it on your
+  // own website
+
+  // ** START **
+  if (form.q.value == "")
+  {
+    alert( "Please enter search terms." );
+    form.q.focus();
+    return false ;
+  }
+
+  if (getCheckedValue(form.sitesearch) == "ics.uci.edu" && form.q.value.indexOf("site:archive.ics.uci.edu/ml") == -1)
+  {
+    form.q.value = form.q.value + " site:archive.ics.uci.edu/ml";
+  }
+
+  // ** END **
+  return true ;
+}
+
+// return the value of the radio button that is checked
+// return an empty string if none are checked, or
+// there are no radio buttons
+function getCheckedValue(radioObj) {
+	if(!radioObj)
+		return "";
+	var radioLength = radioObj.length;
+	if(radioLength == undefined)
+		if(radioObj.checked)
+			return radioObj.value;
+		else
+			return "";
+	for(var i = 0; i < radioLength; i++) {
+		if(radioObj[i].checked) {
+			return radioObj[i].value;
+		}
+	}
+	return "";
+}
+//-->
+</script>
+
+</head>
+
+<body>
+
+
+<!-- SITE HEADER (INCLUDES LOGO AND SEARCH BOX) -->
+
+<table width="100%" bgcolor="#003366">
+<tbody><tr>
+	<td>
+		<span class="normal"><a href="https://archive.ics.uci.edu/ml/index.html" alt="Home"><img src="./UCI Machine Learning Repository_files/logo.gif" border="0"></a><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://cml.ics.uci.edu/"><font color="FFDD33">Center for Machine Learning and Intelligent Systems</font></a></span>
+	</td>
+	<td width="100%" valign="top" align="right">
+		<span class="whitetext">
+		<a href="https://archive.ics.uci.edu/ml/about.html">About</a>&nbsp;
+		<a href="https://archive.ics.uci.edu/ml/citation_policy.html">Citation Policy</a>&nbsp;
+		<a href="https://archive.ics.uci.edu/ml/donation_policy.html">Donate a Data Set</a>&nbsp;
+		<a href="https://archive.ics.uci.edu/ml/contact.html">Contact</a>
+		</span>
+
+		<br>
+		<br>
+		<!-- Search Google -->
+
+		<form method="GET" action="http://www.google.com/custom" onsubmit="return checkform(this);">
+		<input type="text" name="q" size="30" maxlength="255" value="">
+		<input type="submit" name="sa" value="Search">
+		<input type="hidden" name="cof" value="AH:center;LH:130;L:http://archive.ics.uci.edu/ml/assets/logo.gif;LW:384;AWFID:869c0b2eaa8d518e;">
+		<input type="hidden" name="domains" value="ics.uci.edu">
+		<br>
+		<input type="radio" name="sitesearch" value="ics.uci.edu" checked=""> <span class="whitetext"><font size="1">Repository</font></span>
+		<input type="radio" name="sitesearch" value=""> <span class="whitetext"><font size="1">Web</font></span>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="http://www.google.com/search"><img src="./UCI Machine Learning Repository_files/Logo_25blk.gif" border="0" alt="Google" align="middle" height="27"></a>
+		<br>
+		</form>
+		<!-- Search Google -->
+
+
+		<span class="whitetext"><a href="https://archive.ics.uci.edu/ml/datasets.html"><font size="3" color="#FFDD33"><b>View ALL Data Sets</b></font></a></span>
+		<br>
+	</td>
+</tr>
+</tbody></table>
+
+
+
+
+<br>
+<table width="100%" border="0" cellpadding="2"><tbody><tr><td>
+
+
+
+<p class="almostbig" align="center"><b>Welcome to the UC Irvine Machine Learning Repository!</b></p>
+
+
+<!-- <p class="almostbig" align="center"><font color=red><b>[4/6/09]:</b> Our backend data server is currently down -- please 
+use our <a href='http://mlr.cs.umass.edu/ml/'><font color=red>mirror site</font></a> to download data. </p></font> -->
+
+
+
+<span class="normal">We currently maintain 394 data sets as a service to the machine learning community.
+You may <b><a href="https://archive.ics.uci.edu/ml/datasets.html">view all data sets</a></b> through our 
+searchable interface.  Our <a href="http://mlearn.ics.uci.edu/MLRepository.html">old web 
+site</a> 
+is still available, for those who prefer the old format.  For a general overview of the Repository, please visit our <a href="https://archive.ics.uci.edu/ml/about.html">About page</a>.
+For information about citing data sets in publications, please read our <a href="https://archive.ics.uci.edu/ml/citation_policy.html">citation policy</a>.  If you wish to donate a data set, please consult our <a href="https://archive.ics.uci.edu/ml/donation_policy.html">donation policy</a>.
+For any other questions, feel free to <a href="https://archive.ics.uci.edu/ml/contact.html">contact the Repository librarians</a>.</span>
+
+<span class="normal">We have also set up a <a href="http://mlr.cs.umass.edu/ml/">mirror site</a> for the Repository.  </span>
+
+<table cellpadding="5" align="center"><tbody><tr valign="right">
+				<td><p class="normal"><font color="#888888">Supported By:</font></p></td>
+		        <td><a href="http://www.nsf.gov/"><img src="./UCI Machine Learning Repository_files/nsfeSpecial.gif" height="48" border="0"></a></td>
+		        <td><p class="normal"><font color="#888888">In Collaboration With:</font></p></td>
+		        <td><a href="http://rexa.info/"><img src="./UCI Machine Learning Repository_files/rexaSmall.jpg" border="0"></a></td>
+</tr></tbody></table>
+
+
+
+</td></tr></tbody></table>
+
+
+
+<table width="100%" border="1" cellpadding="5" cellspacing="2">
+	<tbody><tr>
+		<td width="33%" valign="top">
+			<table width="100%" border="0" cellpadding="1">
+				<tbody><tr>
+					<td colspan="2"><span class="normal"><b>Latest News:</b></span><hr></td>
+				</tr>
+
+				<tr valign="top">
+						<td width="75">
+							<span class="normal"><b>04-04-2013:</b></span>
+						</td>
+						<td>
+							<span class="normal">Welcome to the new Repository admins Kevin Bache and Moshe Lichman!</span>
+						</td>
+					</tr><tr valign="top">
+						<td width="75">
+							<span class="normal"><b>03-01-2010:</b></span>
+						</td>
+						<td>
+							<span class="normal"><a href="http://archive.ics.uci.edu/ml/noteNetflix.txt">Note</a> from donor regarding Netflix data</span>
+						</td>
+					</tr><tr valign="top">
+						<td width="75">
+							<span class="normal"><b>10-16-2009:</b></span>
+						</td>
+						<td>
+							<span class="normal">Two new data sets have been added.</span>
+						</td>
+					</tr><tr valign="top">
+						<td width="75">
+							<span class="normal"><b>09-14-2009:</b></span>
+						</td>
+						<td>
+							<span class="normal">Several data sets have been added.</span>
+						</td>
+					</tr><tr valign="top">
+						<td width="75">
+							<span class="normal"><b>07-23-2008:</b></span>
+						</td>
+						<td>
+							<span class="normal"><a href="http://mlr.cs.umass.edu/ml/">Repository mirror</a> has been set up.</span>
+						</td>
+					</tr><tr valign="top">
+						<td width="75">
+							<span class="normal"><b>03-24-2008:</b></span>
+						</td>
+						<td>
+							<span class="normal">New data sets have been added!</span>
+						</td>
+					</tr><tr valign="top">
+						<td width="75">
+							<span class="normal"><b>06-25-2007:</b></span>
+						</td>
+						<td>
+							<span class="normal">Two new data sets have been added: UJI Pen Characters, MAGIC Gamma Telescope</span>
+						</td>
+					</tr>
+				<tr>
+					<td colspan="2"><br><hr><span class="normal"><b>Featured Data Set: &nbsp;<a href="https://archive.ics.uci.edu/ml/datasets/E.+Coli+Genes">E. Coli Genes</a></b>
+
+						<br><br>
+						<a href="https://archive.ics.uci.edu/ml/datasets/E.+Coli+Genes"><img src="./UCI Machine Learning Repository_files/Large120.jpg" border="1" align="left" hspace="10"></a>
+
+						<b>Data Type:</b> Relational<br>						</span>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2"><br><span class="normal">Data giving characteristics of each ORF (potential gene) in the E. coli genome. Sequence, homology (similarity to other genes) and structural information, and function (if known) are provided.</span>
+					</td>
+				</tr>
+
+
+			</tbody></table>
+		</td>
+		<td width="33%" valign="top">
+			<table width="100%" border="0" cellpadding="1">
+				<tbody><tr>
+					<td colspan="2"><span class="normal"><b>Newest Data Sets:</b></span><hr></td>
+				</tr>
+
+				<tr valign="middle">
+						<td width="75" valign="middle">
+							<span class="normal"><b>08-28-2017:</b></span>
+						</td>
+						<td valign="middle">
+							<table><tbody><tr><td><a href="https://archive.ics.uci.edu/ml/datasets/Burst+Header+Packet+%28BHP%29+flooding+attack+on+Optical+Burst+Switching+%28OBS%29+Network"><img src="./UCI Machine Learning Repository_files/SmallLargedefault.jpg" border="1"></a>&nbsp;</td><td><span class="normal"><a href="https://archive.ics.uci.edu/ml/datasets/Burst+Header+Packet+%28BHP%29+flooding+attack+on+Optical+Burst+Switching+%28OBS%29+Network">Burst Header Packet (BHP) flooding attack on Optical Burst Switching (OBS) Network</a></span></td></tr></tbody></table>
+
+						</td>
+					</tr><tr valign="middle">
+						<td width="75" valign="middle">
+							<span class="normal"><b>07-23-2017:</b></span>
+						</td>
+						<td valign="middle">
+							<table><tbody><tr><td><a href="https://archive.ics.uci.edu/ml/datasets/Eco-hotel"><img src="./UCI Machine Learning Repository_files/SmallLargedefault.jpg" border="1"></a>&nbsp;</td><td><span class="normal"><a href="https://archive.ics.uci.edu/ml/datasets/Eco-hotel">Eco-hotel</a></span></td></tr></tbody></table>
+
+						</td>
+					</tr><tr valign="middle">
+						<td width="75" valign="middle">
+							<span class="normal"><b>07-23-2017:</b></span>
+						</td>
+						<td valign="middle">
+							<table><tbody><tr><td><a href="https://archive.ics.uci.edu/ml/datasets/Las+Vegas+Strip"><img src="./UCI Machine Learning Repository_files/SmallLargedefault.jpg" border="1"></a>&nbsp;</td><td><span class="normal"><a href="https://archive.ics.uci.edu/ml/datasets/Las+Vegas+Strip">Las Vegas Strip</a></span></td></tr></tbody></table>
+
+						</td>
+					</tr><tr valign="middle">
+						<td width="75" valign="middle">
+							<span class="normal"><b>07-20-2017:</b></span>
+						</td>
+						<td valign="middle">
+							<table><tbody><tr><td><a href="https://archive.ics.uci.edu/ml/datasets/Parkinson+Disease+Spiral+Drawings+Using+Digitized+Graphics+Tablet"><img src="./UCI Machine Learning Repository_files/SmallLargedefault.jpg" border="1"></a>&nbsp;</td><td><span class="normal"><a href="https://archive.ics.uci.edu/ml/datasets/Parkinson+Disease+Spiral+Drawings+Using+Digitized+Graphics+Tablet">Parkinson Disease Spiral Drawings Using Digitized Graphics Tablet</a></span></td></tr></tbody></table>
+
+						</td>
+					</tr><tr valign="middle">
+						<td width="75" valign="middle">
+							<span class="normal"><b>07-18-2017:</b></span>
+						</td>
+						<td valign="middle">
+							<table><tbody><tr><td><a href="https://archive.ics.uci.edu/ml/datasets/PM2.5+Data+of+Five+Chinese+Cities"><img src="./UCI Machine Learning Repository_files/SmallLargedefault.jpg" border="1"></a>&nbsp;</td><td><span class="normal"><a href="https://archive.ics.uci.edu/ml/datasets/PM2.5+Data+of+Five+Chinese+Cities">PM2.5 Data of Five Chinese Cities</a></span></td></tr></tbody></table>
+
+						</td>
+					</tr><tr valign="middle">
+						<td width="75" valign="middle">
+							<span class="normal"><b>07-16-2017:</b></span>
+						</td>
+						<td valign="middle">
+							<table><tbody><tr><td><a href="https://archive.ics.uci.edu/ml/datasets/Sales_Transactions_Dataset_Weekly"><img src="./UCI Machine Learning Repository_files/SmallLargedefault.jpg" border="1"></a>&nbsp;</td><td><span class="normal"><a href="https://archive.ics.uci.edu/ml/datasets/Sales_Transactions_Dataset_Weekly">Sales_Transactions_Dataset_Weekly</a></span></td></tr></tbody></table>
+
+						</td>
+					</tr><tr valign="middle">
+						<td width="75" valign="middle">
+							<span class="normal"><b>06-29-2017:</b></span>
+						</td>
+						<td valign="middle">
+							<table><tbody><tr><td><a href="https://archive.ics.uci.edu/ml/datasets/Data+for+Software+Engineering+Teamwork+Assessment+in+Education+Setting"><img src="./UCI Machine Learning Repository_files/SmallLargedefault.jpg" border="1"></a>&nbsp;</td><td><span class="normal"><a href="https://archive.ics.uci.edu/ml/datasets/Data+for+Software+Engineering+Teamwork+Assessment+in+Education+Setting">Data for Software Engineering Teamwork Assessment in Education Setting</a></span></td></tr></tbody></table>
+
+						</td>
+					</tr><tr valign="middle">
+						<td width="75" valign="middle">
+							<span class="normal"><b>05-30-2017:</b></span>
+						</td>
+						<td valign="middle">
+							<table><tbody><tr><td><a href="https://archive.ics.uci.edu/ml/datasets/chestnut+%E2%80%93+LARVIC"><img src="./UCI Machine Learning Repository_files/SmallLargedefault.jpg" border="1"></a>&nbsp;</td><td><span class="normal"><a href="https://archive.ics.uci.edu/ml/datasets/chestnut+%E2%80%93+LARVIC">chestnut – LARVIC</a></span></td></tr></tbody></table>
+
+						</td>
+					</tr><tr valign="middle">
+						<td width="75" valign="middle">
+							<span class="normal"><b>05-24-2017:</b></span>
+						</td>
+						<td valign="middle">
+							<table><tbody><tr><td><a href="https://archive.ics.uci.edu/ml/datasets/Epileptic+Seizure+Recognition"><img src="./UCI Machine Learning Repository_files/SmallLargedefault.jpg" border="1"></a>&nbsp;</td><td><span class="normal"><a href="https://archive.ics.uci.edu/ml/datasets/Epileptic+Seizure+Recognition">Epileptic Seizure Recognition</a></span></td></tr></tbody></table>
+
+						</td>
+					</tr><tr valign="middle">
+						<td width="75" valign="middle">
+							<span class="normal"><b>05-24-2017:</b></span>
+						</td>
+						<td valign="middle">
+							<table><tbody><tr><td><a href="https://archive.ics.uci.edu/ml/datasets/FMA%3A+A+Dataset+For+Music+Analysis"><img src="./UCI Machine Learning Repository_files/SmallLargedefault.jpg" border="1"></a>&nbsp;</td><td><span class="normal"><a href="https://archive.ics.uci.edu/ml/datasets/FMA%3A+A+Dataset+For+Music+Analysis">FMA: A Dataset For Music Analysis</a></span></td></tr></tbody></table>
+
+						</td>
+					</tr><tr valign="middle">
+						<td width="75" valign="middle">
+							<span class="normal"><b>05-16-2017:</b></span>
+						</td>
+						<td valign="middle">
+							<table><tbody><tr><td><a href="https://archive.ics.uci.edu/ml/datasets/KASANDR"><img src="./UCI Machine Learning Repository_files/SmallLargedefault.jpg" border="1"></a>&nbsp;</td><td><span class="normal"><a href="https://archive.ics.uci.edu/ml/datasets/KASANDR">KASANDR</a></span></td></tr></tbody></table>
+
+						</td>
+					</tr><tr valign="middle">
+						<td width="75" valign="middle">
+							<span class="normal"><b>04-27-2017:</b></span>
+						</td>
+						<td valign="middle">
+							<table><tbody><tr><td><a href="https://archive.ics.uci.edu/ml/datasets/KDC-4007+dataset+Collection"><img src="./UCI Machine Learning Repository_files/SmallLargedefault.jpg" border="1"></a>&nbsp;</td><td><span class="normal"><a href="https://archive.ics.uci.edu/ml/datasets/KDC-4007+dataset+Collection">KDC-4007 dataset Collection</a></span></td></tr></tbody></table>
+
+						</td>
+					</tr>
+			</tbody></table>
+		</td>
+		<td width="33%" valign="top">
+			<table width="100%" border="0" cellpadding="1">
+				<tbody><tr>
+					<td colspan="2"><span class="normal"><b>Most Popular Data Sets (hits since 2007):</b></span><hr></td>
+				</tr>
+				<tr valign="middle">
+						<td width="55" valign="middle">
+							<span class="normal"><b>1538489:</b></span>
+						</td>
+						<td valign="middle">
+							<table><tbody><tr><td><a href="https://archive.ics.uci.edu/ml/datasets/Iris"><img src="./UCI Machine Learning Repository_files/SmallLarge53.jpg" border="1"></a>&nbsp;</td><td><span class="normal"><a href="https://archive.ics.uci.edu/ml/datasets/Iris">Iris</a></span><a href="https://archive.ics.uci.edu/ml/datasets/Iris"> </a></td></tr></tbody></table>
+						</td>
+					</tr><tr valign="middle">
+						<td width="55" valign="middle">
+							<span class="normal"><b>1007942:</b></span>
+						</td>
+						<td valign="middle">
+							<table><tbody><tr><td><a href="https://archive.ics.uci.edu/ml/datasets/Adult"><img src="./UCI Machine Learning Repository_files/SmallLarge2.jpg" border="1"></a>&nbsp;</td><td><span class="normal"><a href="https://archive.ics.uci.edu/ml/datasets/Adult">Adult</a></span><a href="https://archive.ics.uci.edu/ml/datasets/Adult"> </a></td></tr></tbody></table>
+						</td>
+					</tr><tr valign="middle">
+						<td width="55" valign="middle">
+							<span class="normal"><b>767066:</b></span>
+						</td>
+						<td valign="middle">
+							<table><tbody><tr><td><a href="https://archive.ics.uci.edu/ml/datasets/Wine"><img src="./UCI Machine Learning Repository_files/SmallLarge109.jpg" border="1"></a>&nbsp;</td><td><span class="normal"><a href="https://archive.ics.uci.edu/ml/datasets/Wine">Wine</a></span><a href="https://archive.ics.uci.edu/ml/datasets/Wine"> </a></td></tr></tbody></table>
+						</td>
+					</tr><tr valign="middle">
+						<td width="55" valign="middle">
+							<span class="normal"><b>658783:</b></span>
+						</td>
+						<td valign="middle">
+							<table><tbody><tr><td><a href="https://archive.ics.uci.edu/ml/datasets/Car+Evaluation"><img src="./UCI Machine Learning Repository_files/SmallLarge19.jpg" border="1"></a>&nbsp;</td><td><span class="normal"><a href="https://archive.ics.uci.edu/ml/datasets/Car+Evaluation">Car Evaluation</a></span><a href="https://archive.ics.uci.edu/ml/datasets/Car+Evaluation"> </a></td></tr></tbody></table>
+						</td>
+					</tr><tr valign="middle">
+						<td width="55" valign="middle">
+							<span class="normal"><b>590356:</b></span>
+						</td>
+						<td valign="middle">
+							<table><tbody><tr><td><a href="https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29"><img src="./UCI Machine Learning Repository_files/SmallLarge14.jpg" border="1"></a>&nbsp;</td><td><span class="normal"><a href="https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29">Breast Cancer Wisconsin (Diagnostic)</a></span><a href="https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29"> </a></td></tr></tbody></table>
+						</td>
+					</tr><tr valign="middle">
+						<td width="55" valign="middle">
+							<span class="normal"><b>578869:</b></span>
+						</td>
+						<td valign="middle">
+							<table><tbody><tr><td><a href="https://archive.ics.uci.edu/ml/datasets/Forest+Fires"><img src="./UCI Machine Learning Repository_files/SmallLarge162.jpg" border="1"></a>&nbsp;</td><td><span class="normal"><a href="https://archive.ics.uci.edu/ml/datasets/Forest+Fires">Forest Fires</a></span><a href="https://archive.ics.uci.edu/ml/datasets/Forest+Fires"> </a></td></tr></tbody></table>
+						</td>
+					</tr><tr valign="middle">
+						<td width="55" valign="middle">
+							<span class="normal"><b>552814:</b></span>
+						</td>
+						<td valign="middle">
+							<table><tbody><tr><td><a href="https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones"><img src="./UCI Machine Learning Repository_files/SmallLargedefault.jpg" border="1"></a>&nbsp;</td><td><span class="normal"><a href="https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones">Human Activity Recognition Using Smartphones</a></span><a href="https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones"> </a></td></tr></tbody></table>
+						</td>
+					</tr><tr valign="middle">
+						<td width="55" valign="middle">
+							<span class="normal"><b>536065:</b></span>
+						</td>
+						<td valign="middle">
+							<table><tbody><tr><td><a href="https://archive.ics.uci.edu/ml/datasets/Heart+Disease"><img src="./UCI Machine Learning Repository_files/SmallLarge45.jpg" border="1"></a>&nbsp;</td><td><span class="normal"><a href="https://archive.ics.uci.edu/ml/datasets/Heart+Disease">Heart Disease</a></span><a href="https://archive.ics.uci.edu/ml/datasets/Heart+Disease"> </a></td></tr></tbody></table>
+						</td>
+					</tr><tr valign="middle">
+						<td width="55" valign="middle">
+							<span class="normal"><b>529613:</b></span>
+						</td>
+						<td valign="middle">
+							<table><tbody><tr><td><a href="https://archive.ics.uci.edu/ml/datasets/Wine+Quality"><img src="./UCI Machine Learning Repository_files/SmallLarge186.jpg" border="1"></a>&nbsp;</td><td><span class="normal"><a href="https://archive.ics.uci.edu/ml/datasets/Wine+Quality">Wine Quality</a></span><a href="https://archive.ics.uci.edu/ml/datasets/Wine+Quality"> </a></td></tr></tbody></table>
+						</td>
+					</tr><tr valign="middle">
+						<td width="55" valign="middle">
+							<span class="normal"><b>513020:</b></span>
+						</td>
+						<td valign="middle">
+							<table><tbody><tr><td><a href="https://archive.ics.uci.edu/ml/datasets/Abalone"><img src="./UCI Machine Learning Repository_files/SmallLarge1.jpg" border="1"></a>&nbsp;</td><td><span class="normal"><a href="https://archive.ics.uci.edu/ml/datasets/Abalone">Abalone</a></span><a href="https://archive.ics.uci.edu/ml/datasets/Abalone"> </a></td></tr></tbody></table>
+						</td>
+					</tr><tr valign="middle">
+						<td width="55" valign="middle">
+							<span class="normal"><b>453832:</b></span>
+						</td>
+						<td valign="middle">
+							<table><tbody><tr><td><a href="https://archive.ics.uci.edu/ml/datasets/Bank+Marketing"><img src="./UCI Machine Learning Repository_files/SmallLargedefault.jpg" border="1"></a>&nbsp;</td><td><span class="normal"><a href="https://archive.ics.uci.edu/ml/datasets/Bank+Marketing">Bank Marketing</a></span><a href="https://archive.ics.uci.edu/ml/datasets/Bank+Marketing"> </a></td></tr></tbody></table>
+						</td>
+					</tr><tr valign="middle">
+						<td width="55" valign="middle">
+							<span class="normal"><b>384734:</b></span>
+						</td>
+						<td valign="middle">
+							<table><tbody><tr><td><a href="https://archive.ics.uci.edu/ml/datasets/Poker+Hand"><img src="./UCI Machine Learning Repository_files/SmallLarge158.jpg" border="1"></a>&nbsp;</td><td><span class="normal"><a href="https://archive.ics.uci.edu/ml/datasets/Poker+Hand">Poker Hand</a></span><a href="https://archive.ics.uci.edu/ml/datasets/Poker+Hand"> </a></td></tr></tbody></table>
+						</td>
+					</tr>			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+
+
+<br>
+
+<center>
+<span class="normal">
+
+
+
+
+
+
+
+
+
+
+<a href="https://archive.ics.uci.edu/ml/about.html">About</a>&nbsp;&nbsp;||&nbsp;
+<a href="https://archive.ics.uci.edu/ml/citation_policy.html">Citation Policy</a>&nbsp;&nbsp;||&nbsp;
+<a href="https://archive.ics.uci.edu/ml/donation_policy.html">Donation Policy</a>&nbsp;&nbsp;||&nbsp;
+<a href="https://archive.ics.uci.edu/ml/contact.html">Contact</a>&nbsp;&nbsp;||&nbsp;
+<a href="http://cml.ics.uci.edu/">CML</a>
+</span>
+</center>
+
+
+
+</body></html>

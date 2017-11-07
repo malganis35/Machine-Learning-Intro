@@ -1,0 +1,17 @@
+Chers tuteurs,
+
+Un chalenge, tant pour vous en tant que tuteurs que pour vos pupilles.
+
+Vous trouverez ici la célèbre viz de Hans Rosling sur l’espérance de vie en fonction du PIB par habitant.
+
+Votre challenge : accompagnez vos pupilles dans la reconstruction de cette viz à partir des données fournies en pj :
+-	Level 2 : les données sont prêtes à être utilisées pour une viz (merci qui ?)
+-	Level 1 : les données sont nettoyées mais doivent être jointes pour composer une viz
+-	Level 0 : il s’agit des données telles qu’elles sont disponibles sur le net, avec leurs erreurs (infos manquantes, typos,…)
+
+L’occasion de découvrir Alteryx pour la préparation des données, et Tableau pour une viz interactive et partageable.
+
+C’est bien sûr à faire en dehors des heures de mission ?
+
+Bon courage,
+Fred
